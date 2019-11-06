@@ -1,0 +1,22 @@
+
+.video-list {
+  width: 30%;
+}
+
+.video-item{
+  width: 100%;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.video-item title{
+  font-size: 14px;
+  color: rgb(41, 41, 41);
+  margin: 0;
+}
+
+
+@media(max-width: 500px){
+  .video-list{
+    width: 100%;
+  }
+}
